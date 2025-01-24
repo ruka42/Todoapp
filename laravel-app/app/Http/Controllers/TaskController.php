@@ -8,7 +8,7 @@ class TaskController extends Controller
 {
     public function index()
     {
-
+        #コメントだよよく見てね
         $tasks = Task::all();
         return view("task.index",compact("tasks"));
     }
